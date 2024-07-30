@@ -47,8 +47,8 @@ const Posts = () => {
   return (
 <section className="posts">
     {
-        posts.map(({id, thumbnail, category, title, description, authorID}) => 
-        <PostItem key={id} thumbnail={thumbnail} category={category} title={title} description={description} authorID={authorID} />)
+        posts.map(({id, thumbnail, category, title, desc, authorID}) => 
+        <PostItem key={id} postID={id} thumbnail={thumbnail} category={category} title={title} description={desc} authorID={authorID} />)
     }
 </section>  )
 }
