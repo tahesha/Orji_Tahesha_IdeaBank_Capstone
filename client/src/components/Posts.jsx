@@ -16,7 +16,7 @@ const Posts = () => {
                   posts.map(({ id, thumbnail, category, title, desc, authorID }) =>
                       <PostItem key={id} postID={id} thumbnail={thumbnail} category={category} title={title} description={desc} authorID={authorID} />)
               }
-    </div> : <h2>No posts found</h2>}
+    </div> : <h2 className='center'>No posts found</h2>}
 </section>  )
 }
 
