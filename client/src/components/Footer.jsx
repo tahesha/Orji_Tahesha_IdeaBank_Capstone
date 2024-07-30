@@ -14,11 +14,11 @@ const Footer = () => {
     <li><Link to="/posts/categories/Investment">Investment</Link></li>
     <li><Link to="/posts/categories/Uncategorized">Uncategorized</Link></li>
     <li><Link to="/posts/categories/Weather">Weather</Link></li>
-  <div className='footer_copyright'>
+  
+</ul>
+<div className='footer_copyright'>
     <small>All Rights Reserved &copy; Copyright, Tahesha Orji</small>
   </div>
-</ul>
-
 </footer> 
   )
 }
